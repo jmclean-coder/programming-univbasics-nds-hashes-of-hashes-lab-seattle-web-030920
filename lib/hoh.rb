@@ -29,9 +29,8 @@ PORTION_4 = {
   label: "Species",
   sub_category: nil
 }
-
+PORTION_1[:sub_category][:sub_category][:sub_category] = PORTION_2
 def naming_system
-  {:label=>"Kingdom", :sub_category=>{:label=>"Phylum", :sub_category=>{:label=>"Class", :sub_category=>{:label=>"Order"}}}}
   # Remember:
   #  Kingdom
   #  Phylum
