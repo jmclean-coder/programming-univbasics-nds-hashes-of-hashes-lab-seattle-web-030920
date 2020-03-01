@@ -29,7 +29,7 @@ PORTION_4 = {
   label: "Species",
   sub_category: nil
 }
-PORTION_1[:sub_category][:sub_category][:sub_category] = PORTION_2
+
 def naming_system
   # Remember:
   #  Kingdom
