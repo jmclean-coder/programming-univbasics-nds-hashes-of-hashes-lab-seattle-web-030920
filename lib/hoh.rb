@@ -31,6 +31,7 @@ PORTION_4 = {
 }
 
 def naming_system
+  naming_system = PORTION_1[:sub_category][:sub_category][:sub_category] = PORTION_2
   # Remember:
   #  Kingdom
   #  Phylum
@@ -41,7 +42,4 @@ def naming_system
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
-biological_naming = {
-  PORTION_1
-}
 end
